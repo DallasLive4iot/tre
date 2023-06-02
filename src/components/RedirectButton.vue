@@ -1,6 +1,6 @@
 <template>
     <div class="top-menu-button">
-        <h1 class="title segoeui-regular-normal-dove-gray-25px">{{ children }}</h1>
+        <h1 class="title segoeui-regular-normal-dove-gray">{{ children }}</h1>
     </div>
 </template>
 <script>
@@ -11,24 +11,28 @@ export default {
 };
 </script>
 <style>
--top-menu-button {
+.top-menu-button {
     display: flex;
-    height: 39px;
-    width: 5;
+    height: fit-content;
+    /* width: 5vh; */
+    /* background-color: red; */
+    
 }
 
 .title {
 
     flex: 1;
-    height: 25px;
+    height: 2vh;
     letter-spacing: 0;
     line-height: 0px;
-    margin-right: 40px;
-    margin-top: 0px;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
     text-align: center;
     white-space: nowrap;
     opacity: 0.7;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 2.5vh;
     justify-content: center;
+    /* overflow: hidden; */
 }</style>

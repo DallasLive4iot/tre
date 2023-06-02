@@ -21,20 +21,23 @@ box-shadow: 3px 3px 10px #00000047;
 margin-top: 20px;
 margin-left: 5px;
 margin-right: 5px;
-height: fit-content;
-width: fit-content;
+margin-bottom: 5px;
+height: auto;
+width: auto;
 background-color: var(--county-green);
+resize: both;
 
 }
 
 .title1 {
     flex: 1;
     /* height: 36; */
-    font-size: 36px;
+    font-size: 5vh;
     letter-spacing: 0;
     line-height: 10px;
     margin-right: 10px;
     margin-left: 10px;
     color: white;
+    resize: both;
 }
 </style>

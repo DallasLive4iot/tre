@@ -2,7 +2,7 @@
 
 <template>
     <div class="green-box-4" >
-        <h1 class="title3 segoeui-black-english-holly-30px" style="margin-bottom:50px">{{ children }}</h1>
+        <h1 class="title3 segoeui-black-english-holly-30px" style="margin-bottom:3vh;margin-left: 3vw;">{{ children }}</h1>
         <h1 class="green-box-font">- Safe & Secure</h1>
         <h1 class="green-box-font">- Better Control of your Vehicle</h1>
         <h1 class="green-box-font">- Become a Preferred Driver</h1>
@@ -24,8 +24,9 @@ border-radius: 30px;
 opacity: 1;
 backdrop-filter: blur(30px);
 -webkit-backdrop-filter: blur(30px);
-width: 544px;
-height: 243px;
+width: 28vw;
+height: 25vh;
+resize: both;
 
 }
 

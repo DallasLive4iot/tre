@@ -2,10 +2,11 @@
 
 <template>
     <div class="green-box-2" >
-        <h1 class="title3 segoeui-black-english-holly-30px" style="margin-bottom:50px">{{ children }}</h1>
+        <h1 class="title3 segoeui-black-english-holly-30px" style="margin-bottom:3vh;margin-left: 3vw;">{{ children }}</h1>
         <h1 class="green-box-font" style="justify-content: start;">- Simple Shipping Using TRS</h1>
         <h1 class="green-box-font" style="justify-content: start;">- Flexible Booking</h1>
         <h1 class="green-box-font">- High Quality Drivers</h1>
+        <img src="@/assets/PackagePerson.png" style="height:13vh; position: absolute; top: 13vh; left: 20vw;resize: both;" />
     </div>
 </template>
 <script>
@@ -24,23 +25,28 @@ border-radius: 30px;
 opacity: 1;
 backdrop-filter: blur(30px);
 -webkit-backdrop-filter: blur(30px);
-width: 544px;
-height: 243px;
+width: 28vw;
+height: 25vh;
 justify-content: left;
+resize: both;
 
 }
 
 .green-box-font {
     
     /* height: 36; */
-    font: normal normal normal 25px/33px Segoe UI;
-    font-size: 25px;
+    font: normal normal normal 3vh Segoe UI;
     letter-spacing: 0;
-    line-height: 5px;
-    margin-top: 40px;
-    margin-right: 10px;
-    margin-left: 10px;
+    line-height: 5vh;
+    margin-top: -2vh;
+    /* margin-right: 5vh; */
+    margin-left: 3vw;
     color: #277938;
+    resize: both;
+    text-align: left;
+    white-space: nowrap;
+    overflow:clip;
+    
     
 }
 </style>

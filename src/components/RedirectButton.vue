@@ -1,6 +1,6 @@
 <template>
     <div class="top-menu-button">
-        <h1 class="title segoeui-regular-normal-dove-gray">{{ children }}</h1>
+        <h1 class="title segoeui-regular-normal">{{ children }}</h1>
     </div>
 </template>
 <script>
@@ -16,9 +16,13 @@ export default {
     height: fit-content;
     /* width: 5vh; */
     /* background-color: red; */
+    border-radius: 200px;
     
 }
+.top-menu-button:hover{
+    background-color: rgba(159, 255, 159, 0.178);
 
+}
 .title {
 
     flex: 1;
@@ -28,11 +32,13 @@ export default {
     margin-right: 1.5vw;
     margin-left: 1.5vw;
     margin-top: 3vh;
+    margin-bottom: .7vh;
     text-align: center;
     white-space: nowrap;
-    opacity: 0.7;
-    font-weight: 100;
-    font-size: 2.5vh;
+    opacity: 1;
+    font-weight: 700;
+    font-size: 2.8vh;
     justify-content: center;
     /* overflow: hidden; */
+    color:#0a491c;
 }</style>

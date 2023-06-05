@@ -22,7 +22,7 @@ margin-top: 20px;
 margin-left: 5px;
 margin-right: 5px;
 margin-bottom: 5px;
-height: auto;
+height: min-content;
 width: auto;
 background-color: var(--county-green);
 resize: both;

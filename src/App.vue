@@ -7,11 +7,11 @@
           <div class="flex">
             <img src="@/assets/logo.png" style="height:fit-content; margin-top: 0; position: fixed; top:1vh ;" />
             <div class="flex3">
-              <top-menu-button children="Overview" @click="handleClick" style="width:5" />
-              <top-menu-button children="Services" @click="handleClick2" style="width:fit-content" />
-              <top-menu-button children="Benefits" @click="handleClick3" style="width:fit-content" />
-              <top-menu-button children="About Us" @click="handleClick4" style="width:fit-content" />
-              <top-menu-button children="Contact Us" @click="handleClick5" style="width:fit-content" />
+              <top-menu-button children="Overview" @click="handleClick" style="width:5;cursor: pointer;" />
+              <top-menu-button children="Services" @click="handleClick2" style="width:fit-content;cursor: pointer;" />
+              <top-menu-button children="Benefits" @click="handleClick3" style="width:fit-content;cursor: pointer;" />
+              <top-menu-button children="About Us" @click="handleClick4" style="width:fit-content;cursor: pointer;" />
+              <top-menu-button children="Contact Us" @click="handleClick5" style="width:fit-content;cursor: pointer;" />
 
             </div>
 

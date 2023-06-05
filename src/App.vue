@@ -71,7 +71,7 @@
         </div>
         <div class="Join Us" style="position: absolute; top: 530vh; left: 5vw;">
           <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;" ref="Join">Join Us</h1>
-          <scanneri-o-s-vue style="position: absolute;left: 0vw;top: 15vh;"></scanneri-o-s-vue>
+          <scanneri-o-s-vue style="position: absolute;left: 0vw;top: 15vh;resize: both;"></scanneri-o-s-vue>
           <scanner-android-vue style="position: absolute;left: 20vw;top: 15vh;"></scanner-android-vue>
           <scanner-google-vue style="position: absolute;left: 40vw;top: 15vh;"></scanner-google-vue>
         </div>

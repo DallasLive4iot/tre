@@ -16,7 +16,7 @@
             </div>
 
           </div>
-          <div class="Overview" style="position: absolute;top: 20vh; left: 9vw;" ref="Overview">
+          <div class="Overview" style="position: absolute;top: 10vh; left: 9vw;" ref="Overview">
             <div class="main page" style="height: auto;width: auto;resize: both;">
               <h1 class="title2" style="margin-top: 1vh;">The Route Enterprise</h1>
               <h1 class="title3" style="text-align: center;font-size: 5vh;">Join Us!</h1>
@@ -36,9 +36,9 @@
           </div>
 
         </div>
-        <div class="ServicePage" style="position: absolute;top: 150vh;left: 5vw;" ref="Service">
+        <div class="ServicePage" style="position: absolute;top: 140vh;left: 5vw;" ref="Service">
           <h1
-            style="position: absolute; top: 10vh; left: 2vw; font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">
+            style="position: absolute; top: 3vh; left: 2vw; font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">
             Services</h1>
 
           <green-box2-vue children="For Shipper"

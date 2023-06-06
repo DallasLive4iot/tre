@@ -1,5 +1,5 @@
 <template>
-  <header class="start">
+  <header class="start" v-show="!mobile">
     <div >
       <img src="@/assets/Backy1.png" style="height:650vh;width: 100%; position: absolute; top: 0vh; left: 0vw;resize: both;z-index: 0;" />
       <div class="main body" style="height:640vh; background-repeat: no-repeat;">
@@ -47,17 +47,17 @@
           <green-box3-vue children="For Carrier" style="position: absolute; top: 55vh; left: 17vw;height: min-content;" />
           <green-box4-vue children="Tracking Device"
             style="position: absolute; top: 85vh; left: 24vw;height: min-content;" />
-          <img src="@/assets/OBD.png" style="height:35vh; position: absolute; top: 92vh; left: 41vw;resize: both;" />
+          
           <img src="@/assets/Screen1.png" style="height:65vh; position: absolute; top: 15vh; left: 55vw;resize: both;" />
           <img src="@/assets/Screen2.png" style="height:65vh; position: absolute; top: 45vh; left: 67vw;resize:both" />
           <img src="@/assets/running2.gif" style="height:20vh; position: absolute; top: 67vh; left: 61vw;resize: both;" />
         </div>
-        <div class="Benefits Page" style="position: absolute;top: 20vh;">
+        <div class="Benefits Page" style="position: absolute;top: 11vh;">
           <h1 style="position:absolute;top:295vh" ref="Benefits"></h1>
           <h1
             style="position: absolute; top: 300vh; left: 5vw;width: max-content; font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">
             TRE Partner Benefits</h1>
-          <h1 class="title3" style="position: absolute; top: 310vh;left: 5vw; width:45vw;">If you have ambitions, or want
+          <h1 class="title3" style="position: absolute; top: 310vh;left: 5vw; width:48vw;">If you have ambitions, or want
             to get passive income? JOIN US AND BECOME OUR PARTNER! Download App check the benefits details!</h1>
           <img src="@/assets/infographic.png" style="height:60vh; position: absolute; top: 310vh; left: 40vw;resize: both;overflow: clip;" />
           <h1 style="text-align: left;font: normal normal normal 2.6vh Segoe UI;color: #073E17AD;position: absolute;top: 324.5vh;left: 65vw;width: 20vw; resize: both;">Downline 1: $？commission/ea. </h1>
@@ -100,6 +100,7 @@
     </div>
 
   </header>
+  <h1 v-show="mobile">aspect ratio too small</h1>
 </template>
 
 <script>
@@ -137,6 +138,10 @@ export default {
     return {
     }
   },
+  created(){
+    window.addEventListener("resize",this.checkScreen);
+    this.checkScreen();
+  },
   computed: {
     background() {
       return {
@@ -152,7 +157,6 @@ export default {
   methods: {
     handleClick() {
       this.$refs.Overview.scrollIntoView({ behavior: 'smooth' });
-      this.bgColor = 'blue';
     },
     handleClick2() {
       this.$refs.Service.scrollIntoView({ behavior: 'smooth' });
@@ -165,6 +169,14 @@ export default {
     },
     handleClick5() {
       this.$refs.Contact.scrollIntoView({ behavior: 'smooth' });
+    },
+    checkScreen(){
+      this.windowWidth = window.innerWidth;
+      if(this.windowWidth <= 750){
+        this.mobile = true;
+        return
+      }
+      this.mobile = false;
     }
   },
 }

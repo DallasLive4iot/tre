@@ -6,6 +6,7 @@
         <h1 class="green-box-font">- Safe & Secure</h1>
         <h1 class="green-box-font">- Better Control of your Vehicle</h1>
         <h1 class="green-box-font">- Become a Preferred Driver</h1>
+        <img src="@/assets/OBD.png" style="height:35vh; position: absolute; top: 10vh; left: 14vw;resize: both;" />
     </div>
 </template>
 <script>

@@ -1,6 +1,7 @@
 <template>
   <header class="start">
-    <div v-bind:style="background">
+    <div >
+      <img src="@/assets/Backy1.png" style="height:650vh;width: 100%; position: absolute; top: 0vh; left: 0vw;resize: both;z-index: 0;" />
       <div class="main body" style="height:640vh; background-repeat: no-repeat;">
         <div id="border" style="border:thick">
           <!-- <component-one children="For Shipper" style="background-color: aqua;"/> -->
@@ -143,7 +144,8 @@ export default {
         backgroundSize: 'cover',
         //position: 'relative'
         height: 'auto',
-        width: 'auto'
+        width: 'auto',
+        
       };
     },
   },
@@ -177,6 +179,13 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+/* .background{
+  transition: 1ms;
+  visibility: hidden;
+} */
+/* .background:hover{
+  
+} */
 
 .flex {
   display: flex;
@@ -235,6 +244,10 @@ export default {
   font-size: 10vh;
   /* margin-bottom: 50px; */
   resize: both;
+  transition: 1s;
+}
+.title2:hover{
+  transform: scale(1.05);
 }
 
 .title3 {

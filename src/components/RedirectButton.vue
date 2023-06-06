@@ -17,11 +17,11 @@ export default {
     /* width: 5vh; */
     /* background-color: red; */
     border-radius: 200px;
+    transition: 250ms;
     
 }
 .top-menu-button:hover{
     background-color: rgba(159, 255, 159, 0.178);
-
 }
 .title {
 

@@ -26,7 +26,11 @@ height: min-content;
 width: auto;
 background-color: var(--county-green);
 resize: both;
+transition: 1s;
 
+}
+.component-10-1:hover{
+    transform: scale(1.05);
 }
 
 .title1 {

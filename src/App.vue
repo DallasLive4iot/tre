@@ -124,7 +124,7 @@
             </div>
 
           </div>
-          <div class="Overview" style="position: absolute;top: 10vh; left: 9vw;" ref="Overview">
+          <!-- <div class="Overview" style="position: absolute;top: 10vh; left: 9vw;" ref="Overview">
             <div class="main page" style="height: auto;width: auto;resize: both;">
               <h1 class="title2" style="margin-top: 1vh;">The Route Enterprise</h1>
               <h1 class="title3" style="text-align: center;font-size: 5vh;">Join Us!</h1>
@@ -141,7 +141,7 @@
 
 
 
-          </div>
+          </div> -->
 
         </div>
         <div class="ServicePage" style="position: absolute;top: 140vh;left: 5vw;" ref="Service">

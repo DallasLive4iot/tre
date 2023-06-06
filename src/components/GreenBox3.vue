@@ -6,13 +6,27 @@
         <h1 class="green-box-font">- Find Great Deals</h1>
         <h1 class="green-box-font">- Arrange the Schedule</h1>
         <h1 class="green-box-font">- More Opportunities</h1>
-        <img src="@/assets/CaresPerson.png" style="height:12vh; position: absolute; top: 14vh; left: 20vw;resize: both;" />
+        <img src="@/assets/CaresPerson.png" v-show="!mobile" style="height:12vh; position: absolute; top: 14vh; left: 20vw;resize: both;" />
     </div>
 </template>
 <script>
 export default {
     name: "ComponentOne", 
     props: ["children"],
+    created(){
+    window.addEventListener("resize",this.checkScreen);
+    this.checkScreen();
+  },
+  methods:{
+    checkScreen(){
+      this.windowWidth = window.innerWidth;
+      if(this.windowWidth <= 750){
+        this.mobile = true;
+        return
+      }
+      this.mobile = false;
+    },
+  }
 };
 
 </script>

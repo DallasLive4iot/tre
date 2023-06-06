@@ -100,7 +100,113 @@
     </div>
 
   </header>
-  <h1 v-show="mobile">aspect ratio too small</h1>
+
+
+
+
+
+  <!-- <h1 v-show="mobile">aspect ratio too small</h1> -->
+  <header v-show="mobile" class="mobile view">
+    <div >
+      <img src="@/assets/Backy1.png" style="height:650vh;width: 100%; position: absolute; top: 0vh; left: 0vw;resize: both;z-index: 0;" />
+      <div class="main body" style="height:640vh; background-repeat: no-repeat;">
+        <div id="border" style="border:thick">
+          <!-- <component-one children="For Shipper" style="background-color: aqua;"/> -->
+          <div class="flex">
+            <img src="@/assets/logo.png" style="height:fit-content; margin-top: 0; position: fixed; top:1vh ;left: 5vw;" />
+            <div class="flex3">
+              <top-menu-button children="Overview" ref="tester" @click="handleClick" style="width:5;cursor: pointer;" />
+              <top-menu-button children="Services" @click="handleClick2" style="width:fit-content;cursor: pointer;" />
+              <top-menu-button children="Benefits" @click="handleClick3" style="width:fit-content;cursor: pointer;" />
+              <top-menu-button children="About Us" @click="handleClick4" style="width:fit-content;cursor: pointer;" />
+              <top-menu-button children="Contact Us" @click="handleClick5" style="width:fit-content;cursor: pointer;" />
+
+            </div>
+
+          </div>
+          <div class="Overview" style="position: absolute;top: 10vh; left: 9vw;" ref="Overview">
+            <div class="main page" style="height: auto;width: auto;resize: both;">
+              <h1 class="title2" style="margin-top: 1vh;">The Route Enterprise</h1>
+              <h1 class="title3" style="text-align: center;font-size: 5vh;">Join Us!</h1>
+              <h1 class="title3" style="text-align: center;font-size: 5vh;">Scan the QR code and download our App!</h1>
+              <div class="flex2">
+                <h1 class="title3" style="font-size: 5vh;">We provide</h1>
+                <component-one children="integrated," style="background-color: #073E17AD;" />
+                <component-one children="efficient," style="background-color: #073E17AD;" />
+                <h1 class="title3" style="font-size: 5vh;">and</h1>
+                <component-one children="cooperative" style="background-color: #073E17AD;" />
+                <h1 class="title3" style="font-size: 5vh;">experience.</h1>
+              </div>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <div class="ServicePage" style="position: absolute;top: 140vh;left: 5vw;" ref="Service">
+          <h1
+            style="position: absolute; top: 3vh; left: 2vw; font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">
+            Services</h1>
+
+          <green-box2-vue children="For Shipper"
+            style="position: absolute; top: 25vh; left: 10vw;background-color: #e3f3e7;height: min-content;width: 50vw;" />
+          <green-box3-vue children="For Carrier" style="position: absolute; top: 55vh; left: 10vw;height: min-content;width: 50vw;" />
+          <green-box4-vue children="Tracking Device"
+            style="position: absolute; top: 85vh; left: 10vw;height: min-content;width: 50vw;" />
+          
+          <!-- <img src="@/assets/Screen1.png" style="height:65vh; position: absolute; top: 15vh; left: 55vw;resize: both;" />
+          <img src="@/assets/Screen2.png" style="height:65vh; position: absolute; top: 45vh; left: 67vw;resize:both" />
+          <img src="@/assets/running2.gif" style="height:20vh; position: absolute; top: 67vh; left: 61vw;resize: both;" /> -->
+        </div>
+        <div class="Benefits Page" style="position: absolute;top: 11vh;">
+          <h1 style="position:absolute;top:295vh" ref="Benefits"></h1>
+          <h1
+            style="position: absolute; top: 300vh; left: 5vw;width: max-content; font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">
+            TRE Partner Benefits</h1>
+          <h1 class="title3" style="position: absolute; top: 310vh;left: 5vw; width:48vw;">If you have ambitions, or want
+            to get passive income? JOIN US AND BECOME OUR PARTNER! Download App check the benefits details!</h1>
+          <!-- <img src="@/assets/infographic.png" style="height:60vh; position: absolute; top: 310vh; left: 40vw;resize: both;overflow: clip;" />
+          <h1 style="text-align: left;font: normal normal normal 2.6vh Segoe UI;color: #073E17AD;position: absolute;top: 324.5vh;left: 65vw;width: 20vw; resize: both;">Downline 1: $？commission/ea. </h1>
+          <h1 style="text-align: left;font: normal normal normal 2.6vh Segoe UI;color: #073E17AD;position: absolute;top: 337vh;left: 65vw;width: 20vw; resize: both;">Downline 2: $？commission/ea. </h1>
+          <h1 style="text-align: left;font: normal normal normal 2.6vh Segoe UI;color: #073E17AD;position: absolute;top: 349vh;left: 65vw;width: 20vw; resize: both;">Downline 3: $？commission/ea. </h1>
+          <h1 style="text-align: left;font: normal normal normal 2.6vh Segoe UI;color: #073E17AD;position: absolute;top: 362vh;left: 65vw;width: 20vw; resize: both;">Downline 4: You receive shares </h1> -->
+          <benefits-info style="position: absolute;top: 360vh;  width: 75vw;"></benefits-info>
+        </div>
+        <h1 style="position:absolute;top:415vh" ref="AboutUs"></h1>
+        <div class="About us Page" style="position: absolute; top: 420vh; left: 5vw;">
+
+          <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">About Us</h1>
+          <about-us-content-vue style="position: absolute; top: 15vh;left:5vw;width: 70vw;height: min-content;"></about-us-content-vue>
+          <about-us-content-two-vue style="position: absolute; top: 50vh;left:5vw;width: 70vw;height: min-content;"></about-us-content-two-vue>
+          <about-us-content-three-vue style="position: absolute; top: 82vh;left:5vw;width: 70vw;height: min-content;"></about-us-content-three-vue>
+        </div>
+        <div class="Join Us" style="position: absolute; top: 530vh; left: 5vw;">
+          <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;" ref="Join">Join Us</h1>
+          <scanneri-o-s-vue style="position: absolute;left: 0vw;top: 15vh;resize: both; "></scanneri-o-s-vue>
+          <scanner-google-vue style="position: absolute;left: 23vw;top: 15vh;"></scanner-google-vue>
+        </div>
+        <div class="Contact Page" style="position: absolute; top: 600vh; left: 5vw;">
+          <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;" ref="Contact">Contact Us</h1>
+          <img src="@/assets/MapPin.png" style="height:3.5vh; position: absolute; top: 12vh; left: 0vw;" />
+          <h1 style="color:white;position: absolute;top: 11vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">3230 Fallow Field Drive Diamond Bar, CA 91765</h1>
+          <img src="@/assets/Phone.png" style="height:2.7vh; position: absolute; top: 17vh; left: 0vw;" />
+          <h1 style="color:white;position: absolute;top: 15.5vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">909-598-2185</h1>
+          <img src="@/assets/Mail.png" style="height:1.9vh; position: absolute; top: 22vh; left: 0vw;" />
+          <h1 style="color:white;position: absolute;top: 20vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">info@routeenterprise.com</h1>
+          <img src="@/assets/Terms.png" style="height:3vh; position: absolute; top: 27vh; left: 0vw;" />
+          <h1 style="color:white;position: absolute;top: 25.5vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">Terms and Conditions</h1>
+          <img src="@/assets/Lock.png" style="height:3.1vh; position: absolute; top: 32vh; left: 0vw;" />
+          <h1 style="color:white;position: absolute;top: 31vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">Privacy Policy</h1>
+          <img src="@/assets/running3.gif"
+            style="height:90vh;width: 47vw; position: absolute; top: -45vh; left: 47vw;resize: both;overflow: clip;" />
+
+        </div>
+
+      </div>
+    </div>
+  </header>
+  
 </template>
 
 <script>
@@ -177,6 +283,10 @@ export default {
         return
       }
       this.mobile = false;
+    },
+    boxWidth(){
+      return GreenBox2Vue.width;
+      
     }
   },
 }

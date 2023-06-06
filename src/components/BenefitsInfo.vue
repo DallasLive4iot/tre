@@ -16,7 +16,7 @@ export default {
 <style>
 .benefits-info{
 background-color: #58c06e;
-border-radius: 130px;
+border-radius: 7vh;
 opacity: 1;
 height: fit-content;
 width: 80vw;
@@ -30,7 +30,9 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 /* font-size: 2vh; */
-margin-left: 1.5vw;
+margin-left: 3vw;
+margin-right: 1.5vw;
+margin-top: 2vh;
 font: normal normal normal 3vh Segoe UI;
 }
 

@@ -6,13 +6,27 @@
         <h1 class="green-box-font" style="justify-content: start;">- Simple Shipping Using TRS</h1>
         <h1 class="green-box-font" style="justify-content: start;">- Flexible Booking</h1>
         <h1 class="green-box-font">- High Quality Drivers</h1>
-        <img src="@/assets/PackagePerson.png" style="height:13vh; position: absolute; top: 13vh; left: 20vw;resize: both;" />
+        <img v-show="!mobile" src="@/assets/PackagePerson.png" style="height:13vh; position: absolute; top: 13vh; left: 20vw;resize: both;" />
     </div>
 </template>
 <script>
 export default {
     name: "ComponentOne", 
     props: ["children"],
+    created(){
+    window.addEventListener("resize",this.checkScreen);
+    this.checkScreen();
+  },
+  methods:{
+    checkScreen(){
+      this.windowWidth = window.innerWidth;
+      if(this.windowWidth <= 750){
+        this.mobile = true;
+        return
+      }
+      this.mobile = false;
+    },
+  }
 };
 
 </script>

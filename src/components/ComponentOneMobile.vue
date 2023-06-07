@@ -1,0 +1,48 @@
+﻿
+
+<template>
+    <div class="component-10-1-mobile" >
+        <h1 class="title1-mobile segoeui-black-english-holly">{{ children }}</h1>
+    </div>
+</template>
+<script>
+export default {
+    name: "ComponentOne", 
+    props: ["children"],
+};
+
+</script>
+
+<style>
+.component-10-1-mobile {
+-webkit-backdrop-filter: blur (30px) brightness(115%); backdrop-filter: blur (30px) brightness(115%);
+border-radius: 16px;
+box-shadow: 3px 3px 10px #00000047;
+margin-top: 20px;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+height: min-content;
+width: auto;
+background-color: var(--county-green);
+resize: both;
+transition: 1s;
+
+}
+.component-10-1-mobile:hover{
+    transform: scale(1.05);
+}
+
+.title1-mobile {
+    flex: 1;
+    /* height: 36; */
+    font-size: 3vh;
+    letter-spacing: 0;
+    line-height: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    resize: both;
+    text-align: center;
+}
+</style>

@@ -2,10 +2,10 @@
 
 <template>
     <div class="green-box-2-mobile" >
-        <h1 class="title3 segoeui-black-english-holly" style="margin-bottom:3vh;margin-left: 3vw;font-size: 3vh;">{{ children }}</h1>
-        <h1 class="green-box-font-mobile" style="justify-content: start;">- Simple Shipping Using TRS</h1>
-        <h1 class="green-box-font-mobile" style="justify-content: start;">- Flexible Booking</h1>
-        <h1 class="green-box-font-mobile">- High Quality Drivers</h1>
+        <h1 class="title3 segoeui-black-english-holly" style="margin-bottom:3vh; text-align: center; font-size: 3vh;">{{ children }}</h1>
+        <h1 class="green-box-font-mobile" style="justify-content: start;text-align: center;">- Simple Shipping Using TRE</h1>
+        <h1 class="green-box-font-mobile" style="justify-content: start;text-align: center;">- Flexible Scheduling</h1>
+        <h1 class="green-box-font-mobile" style="text-align: center;">- Experienced Drivers</h1>
     </div>
     
 </template>
@@ -50,7 +50,7 @@ opacity: 1;
 backdrop-filter: blur(30px);
 -webkit-backdrop-filter: blur(30px);
 width: 85vw;
-height: 25vh;
+height: fit-content;
 justify-content: left;
 resize: both;
 

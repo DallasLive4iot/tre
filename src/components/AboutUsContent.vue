@@ -3,7 +3,7 @@
 <template>
     <div class="about-us" style="justify-content: center;">
         <img src="@/assets/ShakingHands.png" style="height:9vh;margin-top: 4vh;" />
-        <h1 class="about-us-font">TRE is a company that has a strong spirit of cooperation, hence we provide partnership. Helps you earn passive income.</h1>
+        <h1 class="about-us-font">TRE is a company that has a strong spirit of cooperation and community. Our business model allows you to earn more while building your network</h1>
 
 
     </div>
@@ -19,7 +19,7 @@ export default {
 <style>
 .about-us{
 width: 20vw;
-height: 44vh;
+height: 45vh;
 /* UI Properties */
 background: #ffffff44 0% 0% no-repeat padding-box;
 box-shadow: 3px 3px 6px #00000029;
@@ -32,13 +32,14 @@ transition: 1s;
 
 .about-us-font{
     text-align: center;
-font: normal normal normal 2.6vh Segoe UI;
+font: normal normal normal 1.3vw Segoe UI;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 margin-top: 6vh;
 margin-left: 3vh;
 margin-right:3vh;
+margin-bottom:3vh ;
 transition: 1s;
 }
 .about-us:hover{

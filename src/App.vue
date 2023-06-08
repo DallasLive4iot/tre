@@ -23,15 +23,16 @@
             <div class="main page" style="height: auto;width: auto;resize: both;">
               <h1 class="title2" style="margin-top: 1vh;">The Route Enterprise</h1>
               <h1 class="title3" style="text-align: center;font-size: 5vh;">Join Us!</h1>
-              <h1 class="title3" style="text-align: center;font-size: 5vh;">Scan the QR code and download our App!</h1>
+              
               <div class="flex2">
-                <h1 class="title3" style="font-size: 5vh;">We provide</h1>
+                <h1 class="title3" style="font-size: 5vh;">We provide an </h1>
                 <component-one children="integrated," style="background-color: #073E17AD;" />
                 <component-one children="efficient," style="background-color: #073E17AD;" />
                 <h1 class="title3" style="font-size: 5vh;">and</h1>
                 <component-one children="cooperative" style="background-color: #073E17AD;" />
                 <h1 class="title3" style="font-size: 5vh;">experience.</h1>
               </div>
+              <h1 class="title3" style="text-align: center;font-size: 5vh;">Learn more by downloading the app</h1>
             </div>
 
 
@@ -59,8 +60,7 @@
           <h1
             style="position: absolute; top: 300vh; left: 5vw;width: max-content; font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">
             TRE Partner Benefits</h1>
-          <h1 class="title3" style="position: absolute; top: 310vh;left: 5vw; width:48vw;">If you have ambitions, or want
-            to get passive income? JOIN US AND BECOME OUR PARTNER! Download App check the benefits details!</h1>
+          <h1 class="title3" style="position: absolute; top: 310vh;left: 5vw; width:48vw;">Do you want to explore your full potential and make passive income? JOIN US AND BECOME A PARTNER! Download our app to see all the benefits!</h1>
           <img src="@/assets/infographic.png"
             style="height:60vh; position: absolute; top: 310vh; left: 40vw;resize: both;overflow: clip;" />
           <h1
@@ -78,12 +78,14 @@
           <benefits-info style="position: absolute;top: 380vh;"></benefits-info>
         </div>
         <h1 style="position:absolute;top:415vh" ref="AboutUs"></h1>
-        <div class="About us Page" style="position: absolute; top: 420vh; left: 5vw;">
+        <div class="About us Page" style="position: absolute; top: 410vh; left: 5vw;">
 
           <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">About Us</h1>
-          <about-us-content-vue style="position: absolute; top: 30vh;left:5vw"></about-us-content-vue>
-          <about-us-content-two-vue style="position: absolute; top: 30vh;left:35vw"></about-us-content-two-vue>
-          <about-us-content-three-vue style="position: absolute; top: 30vh;left:65vw"></about-us-content-three-vue>
+          <about-us-content-vue style="position: absolute; top: 20vh;left:10vw"></about-us-content-vue>
+          <about-us-content-two-vue style="position: absolute; top: 20vh;left:35vw"></about-us-content-two-vue>
+          <about-us-content-three-vue style="position: absolute; top: 20vh;left:60vw"></about-us-content-three-vue>
+          <img src="@/assets/CompanyPhoto1.png" style="height:37vh; width: 32vw;position: absolute; top: 70vh; left: 10vw;resize: both;" />
+          <img src="@/assets/CompanyPhoto2.png" style="height:37vh; width: 32vw;position: absolute; top: 70vh; left: 49vw;resize: both;" />
         </div>
         <div class="Join Us" style="position: absolute; top: 530vh; left: 5vw;">
           <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;" ref="Join">Join Us</h1>
@@ -95,22 +97,22 @@
           <img src="@/assets/MapPin.png" style="height:3.5vh; position: absolute; top: 12vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 11vh;left: 2vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
-            3230 Fallow Field Drive Diamond Bar, CA 91765</h1>
+            3230 Fallon Field Drive, Diamond Bar, CA 91765, Suite #215</h1>
           <img src="@/assets/Phone.png" style="height:2.7vh; position: absolute; top: 17vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 15.5vh;left: 2vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
-            909-598-2185</h1>
+            909-859-9818</h1>
           <img src="@/assets/Mail.png" style="height:1.9vh; position: absolute; top: 22vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 20vh;left: 2vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
             info@routeenterprise.com</h1>
-          <img src="@/assets/Terms.png" style="height:3vh; position: absolute; top: 27vh; left: 0vw;" />
-          <h1
+          <!-- <img src="@/assets/Terms.png" style="height:3vh; position: absolute; top: 27vh; left: 0vw;" /> -->
+          <!-- <h1
             style="color:white;position: absolute;top: 25.5vh;left: 2vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
-            Terms and Conditions</h1>
-          <img src="@/assets/Lock.png" style="height:3.1vh; position: absolute; top: 32vh; left: 0vw;" />
+            Terms and Conditions</h1> -->
+          <img src="@/assets/Lock.png" style="height:3.1vh; position: absolute; top: 26vh; left: 0vw;" />
           <h1
-            style="color:white;position: absolute;top: 31vh;left: 2vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
+            style="color:white;position: absolute;top: 24.5vh;left: 2vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
             Privacy Policy</h1>
           <img src="@/assets/running3.gif"
             style="height:90vh;width: 47vw; position: absolute; top: -45vh; left: 47vw;resize: both;overflow: clip;" />
@@ -147,19 +149,20 @@
 
           </div>
           <div class="Overview" style="position: absolute;top: 10vh; left: 9vw;" ref="Overview1">
-            <!-- <div class="main page" style="height: auto;width: auto;resize: both;">
-              <h1 class="title2" style="margin-top: 1vh;">The Route Enterprise</h1>
-              <h1 class="title3" style="text-align: center;font-size: 5vh;">Join Us!</h1>
-              <h1 class="title3" style="text-align: center;font-size: 5vh;">Scan the QR code and download our App!</h1>
+            <div class="main page" style="height: auto;width: auto;resize: both;">
+              <h1 class="title2" style="margin-top: 1vh;font-size: 7vh;">The Route Enterprise</h1>
+              <h1 class="title3" style="text-align: center;font-size: 4vh;">Join Us!</h1>
               <div class="flex2">
-                <h1 class="title3" style="font-size: 5vh;">We provide</h1>
+                <h1 class="title3" style="font-size: 4vh;">We provide an</h1>
                 <component-one children="integrated," style="background-color: #073E17AD;" />
                 <component-one children="efficient," style="background-color: #073E17AD;" />
-                <h1 class="title3" style="font-size: 5vh;">and</h1>
+                <h1 class="title3" style="font-size: 4vh;">and</h1>
                 <component-one children="cooperative" style="background-color: #073E17AD;" />
-                <h1 class="title3" style="font-size: 5vh;">experience.</h1>
+                <h1 class="title3" style="font-size: 4vh;">experience.</h1>
               </div>
-            </div> -->
+              <h1 class="title3" style="text-align: center;font-size: 4vh;">Learn more by downloading the app</h1>
+
+            </div>
 
 
 
@@ -188,7 +191,7 @@
             style="position: absolute; top: 300vh; left: 5vw;width: max-content; font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">
             TRE Partner Benefits</h1>
           <h1 class="title3" style="position: absolute; top: 310vh;left: 5vw; width:48vw;">If you have ambitions, or want
-            to get passive income? JOIN US AND BECOME OUR PARTNER! Download App check the benefits details!</h1>
+            to get passive income? JOIN US AND BECOME A PARTNER! Download our app to see all the benefits!</h1>
           <!-- <img src="@/assets/infographic.png" style="height:60vh; position: absolute; top: 310vh; left: 40vw;resize: both;overflow: clip;" />
           <h1 style="text-align: left;font: normal normal normal 2.6vh Segoe UI;color: #073E17AD;position: absolute;top: 324.5vh;left: 65vw;width: 20vw; resize: both;">Downline 1: $？commission/ea. </h1>
           <h1 style="text-align: left;font: normal normal normal 2.6vh Segoe UI;color: #073E17AD;position: absolute;top: 337vh;left: 65vw;width: 20vw; resize: both;">Downline 2: $？commission/ea. </h1>
@@ -209,30 +212,44 @@
         </div>
         <div class="Join Us" style="position: absolute; top: 530vh; left: 5vw;">
           <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;" ref="Join1">Join Us</h1>
-          <scanneri-o-s-vue style="position: absolute;left: 0vw;top: 15vh;resize: both; "></scanneri-o-s-vue>
-          <scanner-google-vue style="position: absolute;left: 23vw;top: 15vh;"></scanner-google-vue>
+          <div class="scanner" style="justify-content: center;position: absolute;left: 14vw;top: 15vh;height: 17vh;width: 12vh;">
+        <img src="@/assets/QRcode.png" style="width:8vw;position: absolute;top:1vh;left: 1vw;" />
+        <img src="@/assets/Apple.png" style="height:4.5vh;position: absolute;top: 11.5vh;left: 3.5vw;" />
+        <!-- <h1 class="about-us-font">TRE is a company that has a strong spirit of cooperation, hence we provide partnership. Helps you earn passive income.</h1> -->
+
+
+    </div>
+          
+    <div class="scanner" style="justify-content: center;position: absolute;left: 50vw;top: 15vh;height: 17vh;width: 12vh;">
+        <img src="@/assets/QRcode.png" style="width:8vw;position: absolute;top:1vh;left: 1vw; resize: both;" />
+        <img src="@/assets/GooglePlay.png" style="height:4.5vh;position: absolute;top: 11.5vh;left: 3.5vw;" />
+        <!-- <h1 class="about-us-font">TRE is a company that has a strong spirit of cooperation, hence we provide partnership. Helps you earn passive income.</h1> -->
+
+
+    </div>
         </div>
         <div class="Contact Page" style="position: absolute; top: 600vh; left: 5vw;">
           <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;" ref="Contact1">Contact Us</h1>
           <img src="@/assets/MapPin.png" style="height:3.5vh; position: absolute; top: 12vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 11vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
-            3230 Fallow Field Drive Diamond Bar, CA 91765</h1>
+            3230 Fallon Field Drive, Diamond Bar, CA 91765, Suite #215</h1>
           <img src="@/assets/Phone.png" style="height:2.7vh; position: absolute; top: 17vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 15.5vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
-            909-598-2185</h1>
+            909-859-9818
+          </h1>
           <img src="@/assets/Mail.png" style="height:1.9vh; position: absolute; top: 22vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 20vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
             info@routeenterprise.com</h1>
-          <img src="@/assets/Terms.png" style="height:3vh; position: absolute; top: 27vh; left: 0vw;" />
+          <!-- <img src="@/assets/Terms.png" style="height:3vh; position: absolute; top: 27vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 25.5vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
-            Terms and Conditions</h1>
-          <img src="@/assets/Lock.png" style="height:3.1vh; position: absolute; top: 32vh; left: 0vw;" />
+            Terms and Conditions</h1> -->
+            <img src="@/assets/Lock.png" style="height:3.1vh; position: absolute; top: 26vh; left: 0vw;" />
           <h1
-            style="color:white;position: absolute;top: 31vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
+            style="color:white;position: absolute;top: 24.5vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
             Privacy Policy</h1>
           <img src="@/assets/running3.gif"
             style="height:90vh;width: 47vw; position: absolute; top: -45vh; left: 47vw;resize: both;overflow: clip;" />
@@ -251,10 +268,12 @@
   <header v-show="mobile" class="mobile view">
     <div>
       
-      <TheSidebar :open="navOpen"/>
+      
       <img src="@/assets/MobileBacky2.png"
-        style="height:650vh;width: 100%; position: absolute; top: 0vh; left: 0vw;resize: both;z-index: 0;" />
-      <div class="main body" style="height:640vh; background-repeat: no-repeat;">
+        style="height:610vh;width: 100%; position: absolute; top: 0vh; left: 0vw;resize: both;z-index: 0;" />
+
+
+      <div class="main body" style="height:600vh; background-repeat: no-repeat;">
         <div id="border" style="border:thick">
           <!-- <component-one children="For Shipper" style="background-color: aqua;"/> -->
           <div class="flex" style="justify-content: center;">
@@ -272,17 +291,18 @@
           </div>
           <div class="Overview" style="position: absolute;top: 10vh; left: 0vw;" ref="Overview2">
             <div class="main page" style="height: auto;width: auto;resize: both;">
-              <h1 class="title2" style="margin-top: 1vh;font-size:8vw; width:100vw">The Route Enterprise</h1>
+              <h1 class="title2-mobile" style="margin-top: 1vh;font-size:8vw; width:100vw">The Route Enterprise</h1>
               <h1 class="title3" style="text-align: center;font-size: 8vw;width:100vw">Join Us!</h1>
-              <h1 class="title3" style="text-align: center;font-size: 7vw;width:100vw">Scan the QR code and download our App!</h1>
-              <div class="flex2" style="width:100vw;position:absolute;top:55vh;left:-25vw">
-                <h1 class="title3" style="font-size: 7vw;">We provide</h1>
+              
+              <div class="flex2" style="width:100vw;position:absolute;top:40vh;left:-25vw">
+                <h1 class="title3" style="font-size: 7vw;">We provide an</h1>
                 <component-one-mobile-vue children="integrated," style="background-color: #073E17AD;" />
                 <component-one-mobile-vue children="efficient," style="background-color: #073E17AD;" />
                 <h1 class="title3" style="font-size: 7vw;">and</h1>
                 <component-one-mobile-vue children="cooperative" style="background-color: #073E17AD;" />
                 <h1 class="title3" style="font-size: 7vw;">experience.</h1>
               </div>
+              <h1 class="title3" style="text-align: center;font-size: 7vw;width:90vw; position: absolute;top: 68vh;left: 4vw;">Learn more by downloading the app</h1>
             </div>
 
 
@@ -290,9 +310,9 @@
           </div>
 
         </div>
-        <div class="ServicePage" style="position: absolute;top: 140vh;left: 5vw;" ref="Service2">
+        <div class="ServicePage" style="position: absolute;top: 110vh;left: 5vw;" ref="Service2">
           <h1
-            style="position: absolute; top: 3vh; left: 2vw; font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">
+            style="position: absolute; top: 10vh; left: 2vw; font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">
             Services</h1>
 
           <mobile-green-box2 children="For Shipper"
@@ -304,15 +324,13 @@
           <img src="@/assets/Screen2.png" style="height:65vh; position: absolute; top: 45vh; left: 67vw;resize:both" />
           <img src="@/assets/running2.gif" style="height:20vh; position: absolute; top: 67vh; left: 61vw;resize: both;" /> -->
         </div>
-        <div class="Benefits Page" style="position: absolute;top: 11vh;">
+        <div class="Benefits Page" style="position: absolute;top: -50vh;">
           <h1 style="position:absolute;top:295vh" ref="Benefits2"></h1>
           <h1
-            style="position: absolute; top: 300vh; left: 5vw;width: max-content; font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">
+            style="position: absolute; top: 300vh; left: 5.2vw;width: max-content; font: italic normal bold 4.7vh Segoe UI;color: white;opacity: 1;">
             TRE Partner Benefits</h1>
           <h1 class="title3"
-            style="position: absolute; top: 310vh;left: 11vw; width:75vw;font-size: 3vh;text-align: center;">If you have
-            ambitions, or want
-            to get passive income? JOIN US AND BECOME OUR PARTNER! Download App check the benefits details!</h1>
+            style="position: absolute; top: 310vh;left: 11vw; width:75vw;font-size: 3vh;text-align: center;">Do you want to explore your full potential and make passive income? JOIN US AND BECOME A PARTNER! Download our app to see all the benefits!</h1>
           <!-- <img src="@/assets/infographic.png" style="height:60vh; position: absolute; top: 310vh; left: 40vw;resize: both;overflow: clip;" />
           <h1 style="text-align: left;font: normal normal normal 2.6vh Segoe UI;color: #073E17AD;position: absolute;top: 324.5vh;left: 65vw;width: 20vw; resize: both;">Downline 1: $？commission/ea. </h1>
           <h1 style="text-align: left;font: normal normal normal 2.6vh Segoe UI;color: #073E17AD;position: absolute;top: 337vh;left: 65vw;width: 20vw; resize: both;">Downline 2: $？commission/ea. </h1>
@@ -320,33 +338,33 @@
           <h1 style="text-align: left;font: normal normal normal 2.6vh Segoe UI;color: #073E17AD;position: absolute;top: 362vh;left: 65vw;width: 20vw; resize: both;">Downline 4: You receive shares </h1> -->
           
           <div class="benefits-info"  style="position: absolute;top: 340vh;  width: 85vw;left: -2vw;border-radius:20px" >
-        <h1 class="benefits-font" style="text-align: center;font-size: 2.5vh;">Encourage new users to join TRE networks, they become your downline, and you can earn commissions generated by those individuals. Your downline also recruits new downlines into the company, create a hierarchy of partnership, with those at the top of the organization earning commissions on the downlines beneath them.</h1>
+        <h1 class="benefits-font" style="text-align: center;font-size: 2.5vh;">By encouraging new users to join the TRE network, you can earn commissions generated by those individuals. Your referral will also recruit their own networks into the company, that will earn you income without you having to lift a finger!</h1>
     </div>
         </div>
         <h1 style="position:absolute;top:415vh" ref="AboutUs2"></h1>
-        <div class="About us Page" style="position: absolute; top: 420vh; left: 5vw;">
+        <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;position: absolute; top: 340vh; left: 5vw;">About Us</h1>
+        <div class="About us Page" style="position: absolute; top: 344vh; left: 5vw;">
 
-          <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;">About Us</h1>
-          <div class="about-us" style="justify-content: center;width: 85vw;position: absolute; top: 10vh;left:2vw;height: min-content;">
-            <img src="@/assets/ShakingHands.png" style="height:9vh;margin-top: 4vh;" />
-            <h1 class="about-us-font">TRE is a company that has a strong spirit of cooperation, hence we provide
-              partnership. Helps you earn passive income.</h1>
+          
+          <div class="about-us" style="justify-content: center;width: 85vw;position: absolute; top: 10vh;left:2vw;height: 35vh;">
+            <img src="@/assets/ShakingHands.png" style="height:9vh;margin-top: 4vh;margin-bottom: -4vh;" />
+            <h1 class="about-us-font" style="margin-bottom: 2vh;font-size: 2.6vh;">TRE is a company that has a strong spirit of cooperation and community. Our business model allows you to earn more while building your network</h1>
           </div>
-          <div class="about-us" style="justify-content: center;width: 85vw;position: absolute; top: 48vh;left:2vw;height: min-content;">
-            <img src="@/assets/Target.png" style="height:9vh;margin-top: 4vh;" />
-            <h1 class="about-us-font">TRE has track devices and technology to help you better protect your truck goods.</h1>
+          <div class="about-us" style="justify-content: center;width: 85vw;position: absolute; top: 48vh;left:2vw;height: 35vh;">
+            <img src="@/assets/Target.png" style="height:9vh;margin-top: 6vh;margin-bottom: -4vh;" />
+            <h1 class="about-us-font" style="font-size: 2.6vh;">TRE has tracking technology to help you better protect your shipments</h1>
           </div>
-          <div class="about-us" style="justify-content: center;width: 85vw;position: absolute; top: 83vh;left:2vw;height: min-content;">
-            <img src="@/assets/Exchange.png" style="height:9vh;margin-top: 4vh;" />
-        <h1 class="about-us-font">TRE is open platform provide carrier & shipper more opportunity & better experience.</h1>
+          <div class="about-us" style="justify-content: center;width: 85vw;position: absolute; top: 86vh;left:2vw;height: 35vh;">
+            <img src="@/assets/Exchange.png" style="height:9vh;margin-top: 6vh;margin-bottom: -4vh;" />
+        <h1 class="about-us-font" style="font-size: 2.6vh;">TRE is an open platform that provides carriers and shippers of all sizes opportunities to grow</h1>
           </div>
           
         </div>
-        <div class="Join Us" style="position: absolute; top: 535vh; left: 5vw;">
+        <div class="Join Us" style="position: absolute; top: 490vh; left: 5vw;">
           <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;" ref="Join2">Join Us</h1>
           <!-- <scanneri-o-s-vue style="position: absolute;left: 0vw;top: 15vh;resize: both;height: 10vh; "></scanneri-o-s-vue> -->
           <div class="scanner" style="justify-content: center;position: absolute;left: 14vw;top: 15vh;height: 17vh;width: 12vh;">
-        <img src="@/assets/RickRoll.png" style="width:20vw;position: absolute;top:1vh;left: 2vw;" />
+        <img src="@/assets/QRcode.png" style="width:20vw;position: absolute;top:1vh;left: 2vw;" />
         <img src="@/assets/Apple.png" style="height:4.5vh;position: absolute;top: 11.5vh;left: 8vw;" />
         <!-- <h1 class="about-us-font">TRE is a company that has a strong spirit of cooperation, hence we provide partnership. Helps you earn passive income.</h1> -->
 
@@ -354,7 +372,7 @@
     </div>
           
     <div class="scanner" style="justify-content: center;position: absolute;left: 50vw;top: 15vh;height: 17vh;width: 12vh;">
-        <img src="@/assets/RickRoll.png" style="width:20vw;position: absolute;top:1vh;left: 2vw; resize: both;" />
+        <img src="@/assets/QRcode.png" style="width:20vw;position: absolute;top:1vh;left: 2vw; resize: both;" />
         <img src="@/assets/GooglePlay.png" style="height:4.5vh;position: absolute;top: 11.5vh;left: 8vw;" />
         <!-- <h1 class="about-us-font">TRE is a company that has a strong spirit of cooperation, hence we provide partnership. Helps you earn passive income.</h1> -->
 
@@ -363,27 +381,28 @@
     <img src="@/assets/running3.gif"
             style="height:40vh; position: absolute; top: 29vh; left: 5vw;resize: both;overflow: clip;" />
         </div>
-        <div class="Contact Page" style="position: absolute; top: 600vh; left: 5vw;">
-          <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;" ref="Contact2">Contact Us</h1>
-          <img src="@/assets/MapPin.png" style="height:3.5vh; position: absolute; top: 12vh; left: 0vw;" />
+        <h1 style=" font: italic normal bold 5vh Segoe UI;color: white;opacity: 1;position: absolute; top: 565vh; left: 5vw;" ref="Contact2">Contact Us</h1>
+        <div class="Contact Page" style="position: absolute; top: 570vh; left: 5vw;">
+          
+          <img src="@/assets/MapPin.png" style="height:3.5vh; position: absolute; top: 11vh; left: 0vw;" />
           <h1
-            style="color:white;position: absolute;top: 11.5vh;left: 9vw;font: normal normal normal 1.8vh Segoe UI;width: max-content;">
-            3230 Fallow Field Drive Diamond Bar, CA 91765</h1>
+            style="color:white;position: absolute;top: 9.5vh;left: 9vw;font: normal normal normal 1.8vh Segoe UI;width: 60vw;text-align: left;">
+            3230 Fallon Field Drive, Diamond Bar, CA 91765, Suite #215</h1>
           <img src="@/assets/Phone.png" style="height:2.7vh; position: absolute; top: 17vh; left: 0vw;" />
           <h1
-            style="color:white;position: absolute;top: 15.5vh;left: 9vw;font: normal normal normal 1.8vh Segoe UI;width: max-content;">
-            909-598-2185</h1>
+            style="color:white;position: absolute;top: 16vh;left: 9vw;font: normal normal normal 1.8vh Segoe UI;width: max-content;">
+            909-859-9818</h1>
           <img src="@/assets/Mail.png" style="height:1.9vh; position: absolute; top: 22vh; left: 0vw;" />
           <h1
-            style="color:white;position: absolute;top: 20vh;left: 9vw;font: normal normal normal 1.8vh Segoe UI;width: max-content;">
+            style="color:white;position: absolute;top: 20.5vh;left: 9vw;font: normal normal normal 1.8vh Segoe UI;width: max-content;">
             info@routeenterprise.com</h1>
-          <img src="@/assets/Terms.png" style="height:3vh; position: absolute; top: 27vh; left: 0vw;" />
+          <!-- <img src="@/assets/Terms.png" style="height:3vh; position: absolute; top: 27vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 25.5vh;left: 9vw;font: normal normal normal 1.8vh Segoe UI;width: max-content;">
-            Terms and Conditions</h1>
-          <img src="@/assets/Lock.png" style="height:3.1vh; position: absolute; top: 32vh; left: 0vw;" />
+            Terms and Conditions</h1> -->
+          <img src="@/assets/Lock.png" style="height:3.1vh; position: absolute; top: 26vh; left: 0vw;" />
           <h1
-            style="color:white;position: absolute;top: 31vh;left: 9vw;font: normal normal normal 1.8vh Segoe UI;width: max-content;">
+            style="color:white;position: absolute;top: 25vh;left: 9vw;font: normal normal normal 1.8vh Segoe UI;width: max-content;">
             Privacy Policy</h1>
           
 
@@ -411,9 +430,9 @@ import ScannerGoogleVue from './components/ScannerGoogle.vue';
 import MobileGreenBox2 from './components/MobileGreenBox2.vue';
 import MobileGreenBox3Vue from './components/MobileGreenBox3.vue';
 import MobileGreenBox4Vue from './components/MobileGreenBox4.vue';
-
-import TheSidebar from './components/TheSidebar'
 import ComponentOneMobileVue from './components/ComponentOneMobile.vue';
+
+
 
 export default {
   name: 'App',
@@ -432,17 +451,12 @@ export default {
     MobileGreenBox2,
     MobileGreenBox3Vue,
     MobileGreenBox4Vue,
-    TheSidebar,
-    ComponentOneMobileVue
+    ComponentOneMobileVue,
 
 
 
   },
-  data() {
-    return {
-      navOpen: false
-    }
-  },
+
   created() {
     window.addEventListener("resize", this.checkScreen);
     this.checkScreen();
@@ -602,6 +616,22 @@ export default {
   line-height: 30vh;
   /* min-height: 117px; */
   text-shadow: 7px 7px 1px #277938;
+  white-space: nowrap;
+  font-size: 10vh;
+  /* margin-bottom: 50px; */
+  resize: both;
+  transition: 1s;
+}
+.title2-mobile {
+  color: white;
+  font-family: var(--font-family-erasitc-bold);
+  font-size: var(--font-size-xxx1);
+  font-weight: 1000;
+  font-style: italic 20deg;
+  letter-spacing: 0;
+  line-height: 30vh;
+  /* min-height: 117px; */
+  text-shadow: 3px 3px 1px #277938;
   white-space: nowrap;
   font-size: 10vh;
   /* margin-bottom: 50px; */

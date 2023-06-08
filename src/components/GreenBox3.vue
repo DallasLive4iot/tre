@@ -4,9 +4,9 @@
     <div class="green-box-3" >
         <h1 class="title3 segoeui-black-english-holly-30px" style="margin-bottom:3vh;margin-left: 3vw;">{{ children }}</h1>
         <h1 class="green-box-font">- Find Great Deals</h1>
-        <h1 class="green-box-font">- Arrange the Schedule</h1>
-        <h1 class="green-box-font">- More Opportunities</h1>
-        <img src="@/assets/CaresPerson.png" v-show="!mobile" style="height:12vh; position: absolute; top: 14vh; left: 20vw;resize: both;" />
+        <h1 class="green-box-font">- Expand your Opportunities</h1>
+        <h1 class="green-box-font">- Manage your Schedule</h1>
+        <img src="@/assets/CaresPerson.png" v-show="!mobile" style="height:12vh; position: absolute; top: 14vh; left: 22vw;resize: both;" />
     </div>
 </template>
 <script>

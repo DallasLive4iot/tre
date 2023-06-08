@@ -3,9 +3,9 @@
 <template>
     <div class="green-box-2" v-show="!mobile">
         <h1 class="title3 segoeui-black-english-holly" style="margin-bottom:3vh;margin-left: 3vw;" >{{ children }}</h1>
-        <h1 class="green-box-font" style="justify-content: start;">- Simple Shipping Using TRS</h1>
-        <h1 class="green-box-font" style="justify-content: start;">- Flexible Booking</h1>
-        <h1 class="green-box-font">- High Quality Drivers</h1>
+        <h1 class="green-box-font" style="justify-content: start;">- Simple Shipping Using TRE</h1>
+        <h1 class="green-box-font" style="justify-content: start;">- Flexible Scheduling</h1>
+        <h1 class="green-box-font">- Experienced Drivers</h1>
         <img v-show="desktop" src="@/assets/PackagePerson.png" style="height:13vh; position: absolute; top: 13vh; left: 20vw;resize: both;" />
     </div>
    
@@ -70,7 +70,7 @@ resize: both;
     color: #277938;
     resize: both;
     text-align: left;
-    white-space: nowrap;
+    white-space: wrap;
     overflow:clip;
     
     

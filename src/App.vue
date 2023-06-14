@@ -101,7 +101,7 @@
           <img src="@/assets/Phone.png" style="height:2.7vh; position: absolute; top: 17vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 15.5vh;left: 2vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
-            909-859-9818</h1>
+            909-551-0500</h1>
           <img src="@/assets/Mail.png" style="height:1.9vh; position: absolute; top: 22vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 20vh;left: 2vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
@@ -237,7 +237,7 @@
           <img src="@/assets/Phone.png" style="height:2.7vh; position: absolute; top: 17vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 15.5vh;left: 5vw;font: normal normal normal 2vh Segoe UI;width: max-content;">
-            909-859-9818
+            909-551-0500
           </h1>
           <img src="@/assets/Mail.png" style="height:1.9vh; position: absolute; top: 22vh; left: 0vw;" />
           <h1
@@ -391,7 +391,7 @@
           <img src="@/assets/Phone.png" style="height:2.7vh; position: absolute; top: 17vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 16vh;left: 9vw;font: normal normal normal 1.8vh Segoe UI;width: max-content;">
-            909-859-9818</h1>
+            909-551-0500</h1>
           <img src="@/assets/Mail.png" style="height:1.9vh; position: absolute; top: 22vh; left: 0vw;" />
           <h1
             style="color:white;position: absolute;top: 20.5vh;left: 9vw;font: normal normal normal 1.8vh Segoe UI;width: max-content;">
